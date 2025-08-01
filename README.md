@@ -1,84 +1,68 @@
-# Projeto de Tickets Suporte com Laravel e React 
+# Tickets_Suporte
 
-Este projeto é uma aplicação de autenticação utilizando Laravel como backend e React como frontend.
+Um sistema completo para gerenciamento de chamados de suporte técnico, desenvolvido para facilitar o registro, acompanhamento e resolução de tickets em ambientes corporativos ou equipes de TI. Este projeto visa otimizar a comunicação entre usuários e equipes de suporte, automatizar processos e fornecer uma visão clara sobre o status e histórico de atendimentos.
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Recursos Principais
 
+- **Abertura de Tickets:** Usuários podem registrar chamados detalhados, incluindo informações sobre o problema, anexos e prioridade.
+- **Acompanhamento em Tempo Real:** Visualização do status dos tickets, atualizações de progresso e histórico completo de interações.
+- **Painel de Administração:** Área exclusiva para equipe de suporte gerenciar tickets, atribuir responsáveis e definir prioridades.
+- **Notificações Automatizadas:** Alertas por e-mail ou sistema para novas interações, atualizações ou finalização de chamados.
+- **Relatórios e Métricas:** Geração de relatórios para análise de desempenho da equipe, tempo médio de atendimento e volume de chamados.
+- **Controle de Acesso:** Diferentes níveis de permissão para usuários comuns, técnicos e administradores.
 
-## Requisitos
+## Tecnologias Utilizadas
 
-* Node.js (versão 14 ou superior)
-* npm (versão 6 ou superior)
-* Composer (versão 2 ou superior)
-* Laravel (versão 8 ou superior)
-* React (versão 17 ou superior)
+- **Linguagem principal:** (Ex: Python, Node.js, PHP, etc.)
+- **Banco de Dados:** (Ex: MySQL, PostgreSQL, MongoDB, etc.)
+- **Frameworks e Bibliotecas:** (Ex: Django, Express, React, Bootstrap, etc.)
+- **Outros:** (Ex: Docker, GitHub Actions, etc.)
+
+> _Preencha as tecnologias específicas do projeto acima para melhor personalização do README._
 
 ## Instalação
 
-### Backend (Laravel)
-
-1. Clone o repositório do projeto:
+Clone o repositório:
 ```bash
-git clone https://github.com/Guilhermefariah/Laravel_React_System_Register.git
-```
-2. Acesse o diretório do projeto:
-```bash
-cd Laravel_React_System_Register
-```
-3. Instale as dependências do Laravel:
-```bash
-composer install
-```
-4. Copie o arquivo de configuração de exemplo:
-```bash
-cp .env.example .env
-```
-5. Configure as variáveis de ambiente no arquivo `.env`:
-```bash
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
-```
-6. Execute as migrations para criar as tabelas do banco de dados:
-```bash
-php artisan migrate
-```
-7. Inicie o servidor de desenvolvimento do Laravel:
-```bash
-php artisan serve
+git clone https://github.com/Guilhermefariah/Tickets_Suporte.git
+cd Tickets_Suporte
 ```
 
-### Frontend (React)
-
-1. Acesse o diretório do projeto:
+Instale as dependências:
 ```bash
-cd Laravel_React_System_Register
-```
-2. Instale as dependências do React:
-```bash
+# Exemplo para Node.js
 npm install
+
+# Ou para Python
+pip install -r requirements.txt
 ```
-3. Inicie o servidor de desenvolvimento do React:
+
+Configure as variáveis de ambiente e o banco de dados conforme necessário.
+
+## Uso
+
+Inicie o servidor:
 ```bash
+# Exemplo para Node.js
 npm start
+
+# Ou para Python
+python manage.py runserver
 ```
 
-## Comandos
-
-* `php artisan migrate`: Executa as migrations para criar as tabelas do banco de dados.
-* `php artisan serve`: Inicia o servidor de desenvolvimento do Laravel.
-* `npm start`: Inicia o servidor de desenvolvimento do React.
-* `npm run build`: Cria a versão de produção do aplicativo.
-
-* `php artisan db:seed` : Adiciona usuários padrão ao banco de dados (opcional).
+Acesse o sistema através do navegador:  
+`http://localhost:3000` (ou a porta configurada)
 
 ## Contribuição
 
-Contribuições são bem-vindas! Se você encontrar um erro ou quiser adicionar uma nova funcionalidade, por favor, abra uma issue ou envie um pull request.
+Contribuições são bem-vindas! Para contribuir:
+
+1. Fork este repositório.
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Faça push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
 
 ## Licença
 
-Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob a [MIT License](LICENSE).
