@@ -2,6 +2,9 @@
 
 Um sistema completo para gerenciamento de chamados de suporte técnico, desenvolvido para facilitar o registro, acompanhamento e resolução de tickets em ambientes corporativos ou equipes de TI. Este projeto visa otimizar a comunicação entre usuários e equipes de suporte, automatizar processos e fornecer uma visão clara sobre o status e histórico de atendimentos.
 
+<img width="1829" height="797" alt="image" src="https://github.com/user-attachments/assets/18fb7380-00c4-43ce-8ea7-6ad0de029dc4" />
+
+
 ## Recursos Principais
 
 - **Abertura de Tickets:** Usuários podem registrar chamados detalhados, incluindo informações sobre o problema, anexos e prioridade.
